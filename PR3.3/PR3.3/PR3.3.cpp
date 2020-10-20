@@ -24,7 +24,7 @@ int main()
 			y = sqrt((R * R) - (x + 1) * (x + 1));
 		else
 			if (-1 < x && x <= 1)
-				y = R + x + 1;
+				y = R;
 			else
 				if (1 < x && x <= 2)
 					y = (2 * R) - (R * x) - x + 1;
