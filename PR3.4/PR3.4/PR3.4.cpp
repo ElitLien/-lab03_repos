@@ -15,7 +15,7 @@ int main()
 	cout << "y = "; cin >> y;
 	cout << "R = "; cin >> R;
 
-	if ((y <= sqrt((R * R) - (x * x)) && x >= 0 && y>=0) ||
+	if ((y * y <= (R * R) - (x * x) && x >= 0 && y>=0) ||
 		(y >= - x - R && y <= 0 && x <=0))
 		cout << "yes" << endl;
 	else
